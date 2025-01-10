@@ -231,3 +231,43 @@ button:hover {
     font-weight: bold;
     color: #333;
 }
+.cookie-banner {
+    display: none;
+    /* Скрыто по умолчанию */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cookie-banner p {
+    margin: 0;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.cookie-banner a {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.cookie-banner button {
+    margin-left: 15px;
+    padding: 5px 15px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.cookie-banner button:hover {
+    background-color: #e6b800;
+}
